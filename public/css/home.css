@@ -35,9 +35,7 @@
     margin: auto;
 }
 .homebanner{
-    width: 100%;
-    height: 60vh;
-  
+    height: 100vh;
 }
 body{
     background-color: #DCDCDC;
@@ -205,4 +203,27 @@ opacity: 1;
  }
 button:focus{
      outline: none;
+ }
+
+ .threeStar{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     /* bottom: -150px; */
+     transform: translate(-50%,70%);
+     display: flex;
+     justify-content: space-around;
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+     height: 300px;
+ }
+
+ .threeStar img{
+     margin: auto;
+     width: 25%;
+     height: 100%;
+    box-shadow: -7px 25px 55px #00000057;
+    border-radius: 115px 19px;
+    opacity: 1;
  }
