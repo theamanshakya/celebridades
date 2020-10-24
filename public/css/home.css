@@ -1,46 +1,5 @@
 @import url('./tailwind.css');
 
-
-/* <!-- Feature Section --> */
-
-.feature-section{
-    background-color: #455965;
-    height: 500px;
-    padding: 20px;
-}
-.feature{
-    color: #ffffff;
-}
-
-.title{
-    position: relative;
-    display: block;
-    text-align: left;
-    padding: 10px;
-    font : 44px Berlin Sans FB;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.title::before{
-    content: '';
-    height: 5px;
-    width: 100px;
-    background-color: rgb(245, 150, 35);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-.homebanner{
-    height: 100vh;
-}
-body{
-    background-color: #DCDCDC;
-}
-
 /* display section */
 
 .display{
@@ -136,17 +95,46 @@ opacity: 1;
     margin: auto;
 }
 .homebanner{
-    
+    height: 1200px;
 }
-body{
-    background-color: #DCDCDC;
-}
+
 
 .bannerwrapper{
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 45%;
+    background-color: #DCDCDC;
     overflow: hidden;
+}
+.bannerfooter{
+    position: relative;
+    width: 100%;
+    height: 55%;
+    top: 20%;
+    /* background-color: #DCDCDC; */
+    overflow: hidden;
+}
+.bannerfooter h1{
+    text-align: left;
+    font: normal normal normal 48px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #FEB914;
+    opacity: 1;
+}
+.bannerfooter p{
+    text-align: left;
+
+    font: italic normal normal 18px Century Gothic;
+    letter-spacing: 0px;
+    color: #686868;
+    opacity: 1;
+}
+.bannerfooter img{
+    position: absolute;
+    right: -200px;
+    bottom: 240px;
+    /* z-index: -1; */
+    width: 50%;
 }
 .bannerwrapper .image1{
     position: absolute;
@@ -158,14 +146,14 @@ body{
     position: absolute;
     top: 50%;
     left: 10%;
-    transform: translate(-10%,-38%);
+    transform: translate(-10%,-50%);
     width: 60%;
 }
 .bannerwrapper .center{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-90%);
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -210,9 +198,9 @@ button:focus{
      top: 50%;
      left: 50%;
      /* bottom: -150px; */
-     transform: translate(-50%,70%);
+     transform: translate(-50%,55%);
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
      width: 80%;
      margin: auto;
      overflow: hidden;

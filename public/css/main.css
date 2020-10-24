@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,h7{
     background-color: #181C37;
     border-radius: 0 0 45px 45px;
     color: #ffffff;
-    box-shadow:   20px 20px 33px #535353, 
+    box-shadow:   20px 20px 33px hsl(0, 0%, 33%), 
     -20px -20px 33px #656565;
 }
 .nav-links{
