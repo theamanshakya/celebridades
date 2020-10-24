@@ -1,0 +1,36 @@
+@import url('./tailwind.css');
+
+
+/* <!-- Feature Section --> */
+
+.feature-section{
+    background-color: #455965;
+    height: 500px;
+    padding: 20px;
+}
+.feature{
+    color: #ffffff;
+}
+
+.title{
+    position: relative;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    font : 44px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.title::before{
+    content: '';
+    height: 5px;
+    width: 100px;
+    background-color: rgb(245, 150, 35);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
