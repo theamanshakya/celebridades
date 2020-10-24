@@ -35,6 +35,110 @@
     margin: auto;
 }
 .homebanner{
+    width: 100%;
+    height: 60vh;
+  
+}
+body{
+    background-color: #DCDCDC;
+}
+
+/* display section */
+
+.display{
+    background-color: #FFB200;
+    height: 750px;
+    position: relative;
+}
+.img1 img{
+    width: 500px;
+    display: block;
+    position: absolute;
+    z-index: 9;
+    left: 240px;
+    bottom: 0px;
+
+}
+.img2 img{
+    width: 360px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 450px;
+}
+.img3 img{
+    width: 402px;
+    display: block;
+    position: absolute;
+    left:700px;
+    top: 50px;
+}
+.img4 img{
+    width: 420px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+
+}
+.img5 img{
+    width: 340px;
+    display: block;
+    position: absolute;
+    right: 100px;
+    top:200px;
+}
+.dsTitle{
+    text-align: right;
+font: normal normal normal 44px/48px Berlin Sans FB;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.ds-details{
+    text-align: right;
+    color: #fff;
+    width: 250px;
+    position: absolute;
+    bottom: 80px;
+    right: 170px;
+}
+@import url('./tailwind.css');
+
+
+/* <!-- Feature Section --> */
+
+.feature-section{
+    background-color: #455965;
+    height: 500px;
+    padding: 20px;
+}
+.feature{
+    color: #ffffff;
+}
+
+.title{
+    position: relative;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    font : 44px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.title::before{
+    content: '';
+    height: 5px;
+    width: 100px;
+    background-color: rgb(245, 150, 35);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.homebanner{
     
 }
 body{
