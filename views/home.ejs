@@ -3,6 +3,11 @@
 <!-- start here -->
 <link rel="stylesheet" href="css/home.css">
 
+<<<<<<< HEAD
+<!-- Feature Section -->
+
+<div class="feature-section">
+=======
 <section class="homebanner">
 
   <div class="bannerwrapper">
@@ -18,11 +23,35 @@
   </div>
 
 </section>
+>>>>>>> 9ccc3ecc2a518cd668e18b1a1ed5e63972e2dc4c
 
+    <div class="feature">
 
+      <div class="flex justify-center">
+        <h1 class="title p-2">Featured</h1>
+      </div>
 
+      <div>
+        <div class="owl-carousel owl-theme">
+          <div class="item"><h4>1bajbdaslabaksdniandsdsamdl</h4></div>
+          <div class="item"><h4>2</h4></div>
+          <div class="item"><h4>3</h4></div>
+          <div class="item"><h4>4</h4></div>
+          <div class="item"><h4>5</h4></div>
+          <div class="item"><h4>6</h4></div>
+          <div class="item"><h4>7</h4></div>
+          <div class="item"><h4>8</h4></div>
+          <div class="item"><h4>9</h4></div>
+          <div class="item"><h4>10</h4></div>
+          <div class="item"><h4>11</h4></div>
+          <div class="item"><h4>12</h4></div>
+      </div>
 
-
+      
+      </div>
+    </div>
+  
+</div>
 
 
 
@@ -59,7 +88,7 @@
 
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
 
-            <img src={logo} class='logo'></img>
+            <img src='images/logo.png' class='logo'></img>
 
 
             <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3 uppercase">Address</h2>
@@ -131,7 +160,26 @@
 </div>
 
 
-
+<script type="javascript">
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});
+</script>
 
 
 

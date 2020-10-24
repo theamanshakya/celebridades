@@ -36,7 +36,9 @@ h1,h2,h3,h4,h5,h6,h7{
     background-color: #e4e4e4;
 }
 .login-btn{
-
+display: flex;
+justify-content: center;
+text-align: center;
 }
 .left-section,.right-section{
     padding: 10%;
