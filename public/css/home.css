@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('./tailwind.css');
 
 
@@ -33,4 +34,13 @@
     left: 0;
     right: 0;
     margin: auto;
+=======
+.homebanner{
+    width: 100%;
+    height: 60vh;
+  
+}
+body{
+    background-color: #DCDCDC;
+>>>>>>> 9ccc3ecc2a518cd668e18b1a1ed5e63972e2dc4c
 }
