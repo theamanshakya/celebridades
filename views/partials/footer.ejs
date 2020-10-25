@@ -1,4 +1,30 @@
 
+<script src="js/jquery-plugins.js"></script>
+<script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugin/owl-carousel/dist/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  });
+</script>
+
+
+
+
     
 </body>
 </html>

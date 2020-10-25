@@ -1,5 +1,3 @@
-@import url('./tailwind.css');
-
 /* display section */
 
 .display{
@@ -65,7 +63,7 @@ opacity: 1;
 
 .feature-section{
     background-color: #455965;
-    height: 500px;
+    height: auto;
     padding: 20px;
 }
 .feature{
@@ -94,48 +92,16 @@ opacity: 1;
     right: 0;
     margin: auto;
 }
-.homebanner{
-    height: 1200px;
-}
 
 
 .bannerwrapper{
     position: relative;
     width: 100%;
-    height: 45%;
+    height: 1000px;
     background-color: #DCDCDC;
     overflow: hidden;
 }
-.bannerfooter{
-    position: relative;
-    width: 100%;
-    height: 55%;
-    top: 20%;
-    /* background-color: #DCDCDC; */
-    overflow: hidden;
-}
-.bannerfooter h1{
-    text-align: left;
-    font: normal normal normal 48px Berlin Sans FB;
-    letter-spacing: 0px;
-    color: #FEB914;
-    opacity: 1;
-}
-.bannerfooter p{
-    text-align: left;
 
-    font: italic normal normal 18px Century Gothic;
-    letter-spacing: 0px;
-    color: #686868;
-    opacity: 1;
-}
-.bannerfooter img{
-    position: absolute;
-    right: -200px;
-    bottom: 240px;
-    /* z-index: -1; */
-    width: 50%;
-}
 .bannerwrapper .image1{
     position: absolute;
     top: -100px;
@@ -215,3 +181,65 @@ button:focus{
     border-radius: 115px 19px;
     opacity: 1;
  }
+
+.homebanner{
+    padding:30px 0px ;
+    background: url('../images/2.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 820px;
+    background-position-y: 50px;
+}
+
+.bannerfooter h1{
+    text-align: left;
+    font: normal normal normal 48px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #FEB914;
+    opacity: 1;
+}
+.bannerfooter p{
+    text-align: left;
+
+    font: italic normal normal 18px Century Gothic;
+    letter-spacing: 0px;
+    color: #686868;
+    opacity: 1;
+}
+ .card{
+    padding: 20px 20px 0px 20px;
+    box-shadow: -10px 7px 47px #00000029;
+}
+.card .celebName{
+    text-align: left;
+font: normal normal bold 16px Poppins;
+letter-spacing: 0px;
+color: #222121;
+opacity: 1;
+}
+.feature .card img{
+    width: 100%;
+    height: 250px !important;
+    overflow: hidden;
+    object-position: top;
+    object-fit: cover;
+
+}
+.card .celebTag{
+    text-align: left;
+font: normal normal 600 12px Poppins;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.bannerfooter .bannerfooterCard .smallCard{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.bannerfooter .bannerfooterCard .smallCard img{
+    width: 100%;
+    height: 150px !important;
+    overflow: hidden;
+    object-position: top;
+    object-fit: cover;
+}

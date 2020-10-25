@@ -1,30 +1,65 @@
-@import url('./tailwind.css');
 body{
     margin: 0;
     padding: 0;
 }
+.w-10{
+    width: 10%;
+}
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.w-100,.w-full{
+    width: 100%;
+}
+
 h1,h2,h3,h4,h5,h6,h7{
     margin: 0;
 }
-.head{
+.customNav{
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: #181C37;
     border-radius: 0 0 45px 45px;
     color: #ffffff;
     box-shadow:   20px 20px 33px hsl(0, 0%, 33%), 
     -20px -20px 33px #656565;
 }
-.nav-links{
+.customNav .nav-link{
     color: #ffffff!important;
 }
-.nav-links:hover{
+.customNav .nav-link:hover{
     color: #f5f5f5!important;
 }
-.nav-button{
+.customNav .loginBtn{
     background: transparent linear-gradient(93deg, #FFAC00 0%, #FF7600 100%) 0% 0% no-repeat padding-box;
     border-radius: 28px;
     opacity: 1;
     height: 40px;
     width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
     padding: 20px 38px;
 }
@@ -35,9 +70,7 @@ h1,h2,h3,h4,h5,h6,h7{
     background-color: #e4e4e4;
 }
 .login-btn{
-display: flex;
-justify-content: center;
-text-align: center;
+
 }
 .left-section,.right-section{
     padding: 10%;
