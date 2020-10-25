@@ -68,6 +68,7 @@ opacity: 1;
 }
 .feature{
     color: #ffffff;
+    padding: 50px auto;
 }
 
 .title{
@@ -97,9 +98,8 @@ opacity: 1;
 .bannerwrapper{
     position: relative;
     width: 100%;
-    height: 1000px;
+    height: 500px;
     background-color: #DCDCDC;
-    overflow: hidden;
 }
 
 .bannerwrapper .image1{
@@ -111,15 +111,15 @@ opacity: 1;
 .bannerwrapper .image2{
     position: absolute;
     top: 50%;
-    left: 10%;
-    transform: translate(-10%,-50%);
+    left: 15%;
+    transform: translate(-15%,-40%);
     width: 60%;
 }
 .bannerwrapper .center{
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%,-90%);
+    transform: translate(-50%,54%);
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -158,13 +158,17 @@ opacity: 1;
 button:focus{
      outline: none;
  }
-
+.threeStarWrapper{
+    width: 100%;
+    height: 300px;
+    background: #FFFFFF;
+}
  .threeStar{
      position: absolute;
      top: 50%;
      left: 50%;
      /* bottom: -150px; */
-     transform: translate(-50%,55%);
+     transform: translate(-50%,65%);
      display: flex;
      justify-content: center;
      width: 80%;
@@ -183,12 +187,12 @@ button:focus{
  }
 
 .homebanner{
-    padding:30px 0px ;
-    background: url('../images/2.png');
-    background-size: 60%;
+    padding: 30px 0px;
+    background: url(../images/2.png);
+    background-size: 68%;
     background-repeat: no-repeat;
-    background-position-x: 820px;
-    background-position-y: 50px;
+    background-position-x: 732px;
+    background-position-y: 280px;
 }
 
 .bannerfooter h1{
@@ -242,4 +246,18 @@ opacity: 1;
     overflow: hidden;
     object-position: top;
     object-fit: cover;
+}
+
+.viewMoreBtn{
+    margin: 20px auto;
+    background-color: #FFB200;
+    padding: 10px 32px;
+    box-shadow: -8px 33px 41px #00000045;
+    border-radius: 32px;
+    text-align: left;
+    font: normal normal medium 20px Poppins;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #4B4B4B;
+    opacity: 1;
 }
