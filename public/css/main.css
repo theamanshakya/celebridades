@@ -152,15 +152,25 @@ object-position: center;
     color: #fff;
     margin: 10px;
 }
-.play-icon{
+.artist{
     position: relative;
+}
+.play-icon{
+    position: absolute;
     color: #ffffff;
-    font-size: 4rem!important;  
-    bottom: 250px;
-    left: 170px;
+    font-size: 2rem!important;  
+    bottom: 170px;
+    left: 280px;
 }
 .artist-info{
     color: #fff;
     margin: 15px 0;
+}
+.video-img{
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    object-fit:cover;
+    object-position: top;
 }
 
