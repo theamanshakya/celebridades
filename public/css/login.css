@@ -1,0 +1,92 @@
+.vector4 img{
+    width: 800px;
+}
+.vector4{
+    position: absolute;
+    left: 100px;
+}
+.login{
+    width: 350px;
+    /* height: 500px; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -26px 18px 99px #00000029;;
+    margin: 70px 20px;
+    border-radius: 37px;
+}
+.login h3{
+    font: normal normal normal 39px/52px Poppins;
+    letter-spacing: 0px;
+    color: #181C37;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+.login-form-btn{
+    background: #181C37 0% 0% no-repeat padding-box;
+    border-radius: 33px;
+    color: #FFFFFF;
+    width: 100%;
+}
+.signin-google{
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #4285F4;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.signin-facebook{
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #3b5998;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.login i{
+    font-size: 15px;
+    margin: 5px;
+}
+.or{
+    position: relative;
+    text-align: center;
+    color: gray;
+}
+.or::before{
+    content: '';
+    height: 2px;
+    width: 120px;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    position: absolute;
+    background-color: gray;
+    top: 12px;
+    right: 15px;
+}
+.or::after{
+    content: '';
+    height: 2px;
+    width: 120px;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    position: absolute;
+    background-color: gray;
+    bottom: 10px;
+    left: 15px;
+}
+.Signup{
+    background: #F8B515 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 33px 33px;
+    text-align: center;
+    align-items: center;
+}
+.Signup-btn{
+    background: #181C37 0% 0% no-repeat padding-box;
+    border-radius: 33px;
+    color: #FFFFFF;
+    width: 50%;
+}

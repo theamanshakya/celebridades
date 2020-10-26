@@ -21,13 +21,17 @@ app.get("/", function (req, res) {
   res.render("home");
 });
 
-app.get("/trackbooking", function (req, res) {
-  res.render("trackbooking");
-});
+app.get('/login',function(req,res){
+    res.render('login');
+})
 
-app.get("/login", function (req, res) {
-  res.render("loginpage");
-});
+app.get('/bookingsection',function(req,res){
+  res.render('bookingsec');
+})
+
+// app.get("/login", function (req, res) {
+//   res.render("loginpage");
+// });
 // Port Listening of Server
 
 // let port = process.env.PORT;
