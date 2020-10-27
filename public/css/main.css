@@ -1,4 +1,6 @@
 @import url('./login.css');
+@import url('./your_bookings.css');
+
 
 
 body{
@@ -70,10 +72,7 @@ h1,h2,h3,h4,h5,h6,h7{
     width: 80px;
 }
 .booking-section{
-    background-color: #e4e4e4;
-}
-.login-btn{
-
+    background-color: #DCDCDC;
 }
 .left-section,.right-section{
     padding: 10%;

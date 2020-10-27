@@ -23,11 +23,15 @@ app.get("/", function (req, res) {
 
 app.get('/login',function(req,res){
     res.render('login');
-})
+});
 
 app.get('/bookingsection',function(req,res){
   res.render('bookingsec');
-})
+});
+
+app.get('/your-bookings',function(req,res){
+  res.render('your_bookings');
+});
 
 // app.get("/login", function (req, res) {
 //   res.render("loginpage");
