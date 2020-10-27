@@ -39,6 +39,18 @@ body{
 h1,h2,h3,h4,h5,h6,h7{
     margin: 0;
 }
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+footer{
+    padding: 50px;
+}
+footer a{
+    color: #e4e4e4;
+}
 .customNav{
     padding-left: 30px;
     padding-right: 30px;
