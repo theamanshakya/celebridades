@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const app = express();
 
 // Static location
-app.use(express.static(__dirname +"/public"));
+app.use(express.static(__dirname + "/public"));
 
 // View-engine
 app.set('view engine', 'ejs');
@@ -17,8 +17,8 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-app.get("/", function(req, res) {
-    res.render("home");
+app.get("/", function (req, res) {
+  res.render("home");
 });
 
 app.get('/login',function(req,res){
@@ -29,6 +29,9 @@ app.get('/bookingsection',function(req,res){
   res.render('bookingsec');
 })
 
+// app.get("/login", function (req, res) {
+//   res.render("loginpage");
+// });
 // Port Listening of Server
 
 // let port = process.env.PORT;
@@ -36,6 +39,6 @@ app.get('/bookingsection',function(req,res){
 //   port=3000;
 // };
 
-app.listen(3000, function() {
+app.listen(3000, function () {
   console.log("Server has started sucessfully");
 });
