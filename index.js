@@ -33,6 +33,10 @@ app.get('/your-bookings',function(req,res){
   res.render('your_bookings');
 });
 
+app.get('/category',function(req,res){
+  res.render('category');
+});
+
 // app.get("/login", function (req, res) {
 //   res.render("loginpage");
 // });
