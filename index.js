@@ -36,6 +36,10 @@ app.get('/your-bookings', function (req, res) {
 app.get('/hiw', function (req, res) {
   res.render('howitworks');
 });
+app.get('/category',function(req,res){
+  res.render('category');
+});
+
 // app.get("/login", function (req, res) {
 //   res.render("loginpage");
 // });
