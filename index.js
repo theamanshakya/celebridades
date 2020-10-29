@@ -21,18 +21,21 @@ app.get("/", function (req, res) {
   res.render("home");
 });
 
-app.get('/login',function(req,res){
-    res.render('login');
+app.get('/login', function (req, res) {
+  res.render('login');
 });
 
-app.get('/bookingsection',function(req,res){
+app.get('/bookingsection', function (req, res) {
   res.render('bookingsec');
 });
 
-app.get('/your-bookings',function(req,res){
+app.get('/your-bookings', function (req, res) {
   res.render('your_bookings');
 });
 
+app.get('/hiw', function (req, res) {
+  res.render('howitworks');
+});
 app.get('/category',function(req,res){
   res.render('category');
 });
