@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const app = express();
 
 // Static location
-app.use(express.static(__dirname + "/public"));
+app.use(express.static( __dirname + "/public"));
 
 // View-engine
 app.set('view engine', 'ejs');
@@ -42,11 +42,11 @@ app.get('/category',function(req,res){
 // });
 // Port Listening of Server
 
-// let port = process.env.PORT;
-// if (port == null||port == ""){
-//   port=3000;
-// };
+let port = process.env.PORT;
+if (port == null||port == ""){
+  port=3000;
+};
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log("Server has started sucessfully");
 });
