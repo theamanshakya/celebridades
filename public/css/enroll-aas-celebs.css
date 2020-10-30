@@ -1,0 +1,24 @@
+.enroll-as-celebs{
+    background-color: #DCDCDC;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.celebs-form{
+    padding: 80px;
+    margin: auto;
+    /* background: #fff; */
+    /* background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -26px 18px 99px #00000029;; */
+}
+.celebs-form input{
+    width: 60%;
+}
+.celebs-form button{
+    background: #FFA900 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+    opacity: 1;
+    color: #000000;
+    padding: 5px 20px;
+}
+

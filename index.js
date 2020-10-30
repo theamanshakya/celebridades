@@ -40,6 +40,10 @@ app.get('/category',function(req,res){
   res.render('category');
 });
 
+app.get('/enroll-as-celebs',function(req,res){
+  res.render('enroll-as-celeb');
+});
+
 // app.get("/login", function (req, res) {
 //   res.render("loginpage");
 // });
