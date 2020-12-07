@@ -15,30 +15,36 @@
                         
                             <div class="form-group">
                                 <label for="Email">Email</label>
-                                <input type="email" class="form-control" id="Email" placeholder="Email">
+                                <input type="email" class="form-control" name="username" id="Email" placeholder="Email">
                               </div>
 
                             <div class="form-group">
                                 <label for="Password">Password</label>
-                                <input type="password" class="form-control" id="Password" placeholder="Password">
+                                <input type="password" class="form-control" name="password" id="Password" placeholder="Password">
                               </div>
 
                              <button class="btn btn-lg my-3 login-form-btn">Login</button> 
-
-                             <div class="d-flex ">
-                                 <button class="signin-google"> <i class="fab fa-google"></i>Sign up With Google</button>
-                                 <button class="signin-facebook"> <i class="fab fa-facebook-square"></i>Login with Facebook</button>
-                             </div>
-
-                             <div class="my-2 or">
-                                <h5>OR</h5>
-                             </div>
-                            </div>
-
-                             <div class="Signup">
-                                <button class="btn my-4 Signup-btn">SignUp</button> 
-                             </div>
                         </form>
+
+                        <div class="d-flex ">
+                            <a href="/auth/google">
+                                <button type="button" class="signin-google"> <i class="fab fa-google"></i>Sign up With Google</button>
+                            </a>
+                            <a href="/auth/facebook">
+                                <button type="button" class="signin-facebook"> <i class="fab fa-facebook-square"></i>Login with Facebook</button>
+                            </a>
+                         </div>
+
+                         <div class="my-2 or">
+                            <h5>OR</h5>
+                         </div>
+                        </div>
+
+                         <div class="Signup">
+                             <a href="/signup">
+                                <button type="button" class="btn my-4 Signup-btn">SignUp</button> 
+                             </a>
+                         </div>
 
                     </div>
                 </div>

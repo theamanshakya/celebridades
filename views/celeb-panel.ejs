@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/celeb-panel.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar" >
+				<div class="p-4 pt-5">
+                    <img src="images/shefali.jpg" class="img logo mb-1" style="width: 100%" alt="">                  
+                    <h4 style="color: #ffffff;">Shefali Bagga</h4>
+	    <ul class="list-unstyled components mb-5">
+	          
+	        <li class="active">
+	              <a href="#">Dashboard</a>
+            </li>
+	        <li>
+                 <a href="#">Profile</a>
+            </li>
+            <li>
+                 <a href="#">Verification Status</a>
+            </li>
+            <li>
+                 <a href="#">Your Bookings</a>
+            </li>
+	    </ul>
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5" style="background-color: #DCDCDC;">
+
+
+        <!-- Profile -->
+        <div>
+
+        <h2 class="mb-4">Profile</h2>
+
+        </div>
+
+
+      </div>
+		</div>
+
+
+    <script src="js/jquery-plugins.js"></script>
+    <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="">
+    function($) {
+
+        "use strict";
+
+        var fullHeight = function() {
+
+            $('.js-fullheight').css('height', $(window).height());
+            $(window).resize(function(){
+                $('.js-fullheight').css('height', $(window).height());
+            });
+
+        };
+        fullHeight();
+
+        $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+        });
+
+        }
+    </script>
+  </body>
+</html>

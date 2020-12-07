@@ -1,8 +1,55 @@
-.howItWork .mainWrapper h1{
+.howItWork{
+    background-color: #DCDCDC;   
+    padding: 0;
+}
+.howItWork h1{
     text-align: center;
     text-transform: uppercase;
-font: 48px Berlin Sans FB;
-letter-spacing: 0px;
-color: #181C37;
-opacity: 1;
+    font: 35px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #181C37;
+    opacity: 1;
+}
+.rowCard{
+    background-color:#FFF ;
+    height: 80px;
+    border-radius:  0 50px 0 50px;
+    box-shadow: 20px 32px 22px #00000029;
+}
+.rowCard h1{
+    text-align: left;
+    font: normal normal normal 65px/71px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #181C37;
+    opacity: 1;
+}
+.sr-no{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    align-items: center;
+}
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+    border: solid;
+    border-color: lightgrey;
+}
+.faq-answer{
+    padding: 20px;
+    width: 99%;
+}
+.plus-icon{
+    color: #000000;
+}
+.faq-answer{
+    background-color: #fff;
+    height: 150px;
 }

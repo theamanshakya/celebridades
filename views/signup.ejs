@@ -1,0 +1,73 @@
+<%- include ("./partials/header") ; %>
+
+
+<section>
+    <div>
+        <div class="row no-gutters">
+
+            <div class="col-lg-4 col-md-4">
+                <div class="d-flex justify-content-end">
+                    <div class="login ">
+                        <div class="p-4">
+                        <h3 class="my-2">Sign up</h3>
+                        
+                        <form action="/signup" method="POST">
+                        
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control" id="Email" name="username" placeholder="Email" >
+                              </div>
+
+                            <div class="form-group">
+                                <label for="Password">Password</label>
+                                <input type="password" class="form-control" id="Password" name="password" placeholder="Password">
+                              </div>
+
+                             <button class="btn btn-lg my-3 login-form-btn">Sign Up</button> 
+                        </form>
+
+                        <div class="d-flex ">
+                            <a href="/auth/google">
+                                <button type="button" class="signin-google"> <i class="fab fa-google"></i>Sign up With Google</button>
+                            </a>
+                            <a href="/auth/facebook">
+                                <button type="button" class="signin-facebook"> <i class="fab fa-facebook-square"></i>Login with Facebook</button>
+                            </a>
+                         </div>
+
+                         <div class="my-2 or">
+                            <h5>OR</h5>
+                         </div>
+                        </div>
+
+                         <div class="Signup">
+                             <a href="/login">
+                                <button type="button" class="btn my-4 Signup-btn">Login</button>                             
+                            </a>
+                         </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <div class="vector4">
+                    <img class="" src="images/4.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<%- include ("./partials/footer") ; %>

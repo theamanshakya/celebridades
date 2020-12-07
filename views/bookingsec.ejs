@@ -1,20 +1,20 @@
 <%- include ("./partials/header") ; %>
 
 <section class="booking-section">
-    <div class="row">
+    <div class="row no-gutters">
         <div class="col-lg-6">
 
             <div class="left-section">
                 
-            <div class="row">
+            <div class="row no-gutters">
                 <div class="col-lg-8">
                     <div class="main-card">
     
                         <img src= 'images/shefali3.jpg'></img>
         
                         <div class="celeb-details">
-                        <h1 class=''>Shefali Bagga</h1>
-                        <h3>Journalist and Anchor</h3>
+                        <h1 class='celeb-name'>Shefali Bagga</h1>
+                        <h3 class="celeb-tag">Journalist and Anchor</h3>
         
                         <div class="underline"></div>
         
@@ -28,11 +28,9 @@
                         <img src= 'images/shefali1.jpg' ></img>
         
                         <div class="celeb-details">
-                        <h4 class=''>Shefali Bagga</h4>
-                        <h6 class='m-0'>Journalist and Anchor</h6>
-        
-                        <div class="underline"></div>
-        
+                        <h4 class='celeb-name'>Shefali Bagga</h4>
+                        <h6 class='m-0 celeb-tag'>Journalist and Anchor</h6>
+                
                         </div>
                     </div>
 
@@ -41,10 +39,9 @@
                         <img src= 'images/shefali2.jpg' ></img>
         
                         <div class="celeb-details">
-                        <h4 class=''>Shefali Bagga</h4>
-                        <h6 class='m-0'>Journalist and Anchor</h6>
-        
-                        <div class="underline"></div>
+                        <h4 class='celeb-name'>Shefali Bagga</h4>
+                        <h6 class='m-0 celeb-tag'>Journalist and Anchor</h6>
+
         
                         </div>
                     </div>
@@ -77,10 +74,10 @@
     
             </div class='artist'>
                 <h5 class='my-4 artist-info' >Sample Video</h5>
-    
+                <div class="position-relative">
                 <img src=images/shefali3.jpg class="video-img"></img>
                 <i class="fas fa-play play-icon"></i>
-    
+            </div>
             </div>
         </div>
 
@@ -120,15 +117,32 @@
            
                         </div>
                     </div>
+                    <div class="input-box my-4">
+                        <label><h4>Want Celebrity For -</h4></label>
+                        <div class="d-flex">
+                            <div class="m-3">
+                                <input type="checkbox" class='check-inputs' name="video-bite"  />
+                                <label for="">Video Bite</label>
+                            </div>
+                            <div class="m-3">
+                                <input type="checkbox" class='check-inputs' name="live-session" />
+                                <label for="">Live session</label>
+                            </div>
+                            <div class="m-3">
+                                <input type="checkbox" class='check-inputs' name="Dm-on-insta" />
+                                <label for="">DM on Instagram</label>   
+                            </div>
+                        </div>
+                    </div>
                     <div class="input-box my-4 ">
                         <label><h4>Your Message</h4></label>
                         <div>
-                             <input type="textarea">
+                             <input class='inputs' type="textarea">
                         </div>
                     </div>
     
-                    <div class="">
-                        
+                    <div >
+                        <button class="book-now-btn btn " type="submit">Book Now</button>
                     </div>
     
                     </form>
